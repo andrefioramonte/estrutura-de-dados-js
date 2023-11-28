@@ -38,15 +38,21 @@ main{
 }
 
 .card{
-    height: 200px;
+    height: 250px;
     width: 200px;
-    box-shadow: 2px 2px 2px #615f5f;
+    box-shadow: 2px 2px 2px #00cf00;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     flex-direction: column;
     gap: 8px;
+}
+
+.card:hover{
+    background-color: #d8d7d7;
+    height: 240px;
+    cursor: pointer;
 }
 
 .card__photo{
@@ -62,6 +68,20 @@ main{
 }
 
 .card__user-id{
+    font-size: 1.2rem;
+    color: #ff0000;
+}
+
+.card__user-email{
     font-size: 1rem;
     color: #aa3ec5;
+}
+
+.card__user-celular{
+    font-size: 1rem;
+    color: #aa3ec5;
+}
+
+.sombra{
+    box-shadow: 2px 2px 2px #f30e0e;
 }
